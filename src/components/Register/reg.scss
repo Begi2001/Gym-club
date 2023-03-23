@@ -1,0 +1,95 @@
+.wrapper-reg {
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 600px;
+  display: flex;
+  background-image: url("../../assets/blckImg.png");
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 173px;
+  @media (max-width: 650px) {
+    padding-right: 0px;
+    justify-content: center;
+  }
+  .reg-div {
+    width: 310px;
+    height: 378px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h3 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      text-align: center;
+      color: #ffffff;
+    }
+    h4 {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+      span {
+        color: #f7931e;
+      }
+    }
+    .inp-name {
+      color: #ffffff;
+      font-size: 15px;
+      background: none;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #ffffff;
+      padding-bottom: 10px;
+      &::placeholder {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+    .inp-phone {
+      color: #ffffff;
+      font-size: 15px;
+      background: none;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #ffffff;
+      padding-bottom: 10px;
+      &::placeholder {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+    .btn-div {
+      background: rgba(220, 220, 220, 0.189);
+      clip-path: polygon(21.5% 0%, 96.5% 0%, 90% 100%, 15% 100%);
+      width: 280px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      p {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+        margin-left: 33px;
+      }
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}

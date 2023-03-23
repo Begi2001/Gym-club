@@ -1,0 +1,91 @@
+.wrapper-subs {
+  position: relative;
+  height: 100%;
+  padding: 100px 0;
+  overflow: auto;
+  .subs-div {
+    width: 100%;
+    width: 1125px;
+    margin: 0 auto;
+    overscroll-behavior-inline: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    .title1 {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 34px;
+      margin-bottom: 70px;
+    }
+    .wrapper-list {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .top-numbers {
+        width: 100%;
+        border-bottom: 1px solid rgba(12, 20, 23, 0.5);
+        display: flex;
+        justify-content: space-between;
+        color: #0c1417;
+        font-weight: 700;
+        line-height: 24px;
+        p {
+          padding: 15px 0;
+          width: 180px;
+          transition: 0.3s ease-in-out;
+
+          cursor: default;
+          &:hover {
+            transition: 0.3s ease-in-out;
+            color: #f7931e;
+          }
+        }
+        :nth-child(1) {
+          color: #0c1417;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 24px;
+          &:hover {
+            color: #0c1417;
+          }
+        }
+        :nth-child(n + 2) {
+          width: 150px;
+          text-align: center;
+          justify-content: center;
+        }
+      }
+      .type1 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 47px;
+        font-weight: 600;
+        z-index: 999;
+        :nth-child(n + 2) {
+          width: 150px;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          color: #0c1417;
+          font-weight: 400;
+          &:hover {
+            color: #0c1417;
+          }
+        }
+        p {
+          display: flex;
+          font-size: 15px;
+          width: 180px;
+          transition: 0.3s ease-in-out;
+          cursor: default;
+          &:hover {
+            color: #f7931e;
+            transition: 0.3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+}
