@@ -6,6 +6,8 @@ import Subsc2 from "./components/Subsc2/Subsc2";
 import Footer from "./components/Footer/Footer";
 import Reg from "./components/Register/Reg";
 import Map from "./components/Map/Map";
+import Footer2 from "./components/Footer2/Footer2";
+import BurgerFooter from "./components/footerBurger/FootBurger";
 function App() {
   return (
     <div>
@@ -14,8 +16,9 @@ function App() {
       <Subs />
       <Subsc2 />
       <Reg />
-      <Map/>
-      <Footer/>
+      <Map />
+      {/* <BurgerFooter /> */}
+      <Footer2/>
     </div>
   );
 }

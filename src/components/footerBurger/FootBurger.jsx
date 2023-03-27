@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import "./style.scss";
-import MenuIcon from "@mui/icons-material/Menu";
+import LogoGym from "../../assets/FitnesLogo.png";
 import CloseIcon from "@mui/icons-material/Close";
-import Logo1 from "../../assets/FitnesLogo.png";
-
-export const navBurger = [
+import MenuIcon from "@mui/icons-material/Menu";
+import "./footBurger.scss";
+export const footerBrgData = [
   {
     id: 1,
     title: "О нас",
@@ -29,9 +28,17 @@ export const navBurger = [
     id: 6,
     title: "+7 (496) 416-19-16",
   },
+  {
+    id: 7,
+    title: "Абонемент по времени",
+  },
+  {
+    id: 8,
+    title: "Разовые тренировки",
+  },
 ];
 
-const Burger = () => {
+const FootBurger = () => {
   const [open, setOpen] = useState(false);
 
   function ClickBtn(event) {
@@ -39,12 +46,11 @@ const Burger = () => {
       setOpen(!open);
     }
   }
-
   return (
-    <header>
-      <nav className={`wrapper-nav ${open ? "active" : ""}`}>
-        <div className="top-nav">
-          <img className="logoImg" src={Logo1} alt="" />
+    <div className="main-wrapper">
+      <div className={`wrapper-burger ${open ? "active" : ""}`}>
+        <div className="top-buger">
+          <img src={LogoGym} alt="" />
           <button className="click" onClick={() => setOpen(!open)}>
             {open ? (
               <CloseIcon style={{ fontSize: "30px" }} />
@@ -53,22 +59,22 @@ const Burger = () => {
             )}
           </button>
         </div>
-        <div className="inner-nav">
-          {navBurger.map((res) => (
+        <div className="wrapper-titles">
+          {footerBrgData.map((res) => (
             <div
               key={res.id}
               onClick={ClickBtn}
               activeclassname="active"
-              className="navTitle"
-              to={res.navTitle}
+              className="burgerTitle"
+              to={res.burgerTitle}
             >
               <p>{res.title}</p>
             </div>
           ))}
         </div>
-      </nav>
-    </header>
+      </div>
+    </div>
   );
 };
 
-export default Burger;
+export default FootBurger;
