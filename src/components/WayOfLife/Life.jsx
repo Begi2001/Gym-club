@@ -1,7 +1,7 @@
 import React from "react";
 import {
   MainWrapper,About,WrapperImg,GymImg1,GymImg2,
-  Info,Title,Desc,WrapperBtn,TitleBtn,HoverSelection,
+  Info,Title,Desc,WrapperBtn,TitleBtn,
 } from "./lifestyle";
 import Hover from "../HoverSelectors/Hover"
 const Life = () => {
