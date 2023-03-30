@@ -29,18 +29,21 @@ export const Card1 = [
 const Card = () => {
   return (
     <div className="wrapper-card">
-      {Card1.map((res) => (
-        <div key={res} className="card">
-          <p>{res.title}</p>
-          <p>{res.time}</p>
-          <img src={res.img} alt="" />
-          <p>{res.price}</p>
-          <p>1 тренировка</p>
-          <div className="radius-div">
-            <p className="title-find">Узнать</p>
+      <h1>Разовые тренировки</h1>
+      <div className="main-card">
+        {Card1.map((res) => (
+          <div key={res} className="card">
+            <p>{res.title}</p>
+            <p>{res.time}</p>
+            <img src={res.img} alt="" />
+            <p>{res.price}</p>
+            <p>1 тренировка</p>
+            <div className="radius-div">
+              <p className="title-find">Узнать</p>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

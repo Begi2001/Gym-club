@@ -34,7 +34,6 @@ const Map = () => {
         allowFullScreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-       
       ></iframe>
       <div className="wrapper-contact">
         <h2>Контакты</h2>

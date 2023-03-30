@@ -3,8 +3,10 @@
   height: 100%;
   padding: 100px 0;
   overflow: auto;
+  background-image: url("../../assets/Slice2.png");
+  background-repeat: no-repeat;
+  background-position: center;
   .subs-div {
-    width: 100%;
     width: 1125px;
     margin: 0 auto;
     overscroll-behavior-inline: contain;

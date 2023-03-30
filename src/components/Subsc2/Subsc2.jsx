@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "./Cards/Card";
 import "./subsc2.scss";
 
 export const numbrTr2 = [
@@ -96,7 +95,6 @@ const Subsc2 = () => {
           </div>
         </div>
       </div>
-      <Card />
     </div>
   );
 };

@@ -1,6 +1,11 @@
 .wrapper-subsTime {
   height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   overflow: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../assets/Slice3.png");
   .subs-divTime {
     width: 1125px;
     margin: 0 auto;
@@ -11,6 +16,7 @@
     align-items: center;
     padding: 0 10px;
     margin-bottom: 90px;
+    overflow: auto;
     .titleTime {
       font-weight: 700;
       font-size: 24px;

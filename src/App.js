@@ -6,6 +6,7 @@ import Subsc2 from "./components/Subsc2/Subsc2";
 import Reg from "./components/Register/Reg";
 import Map from "./components/Map/Map";
 import Footer2 from "./components/Footer2/Footer2";
+import Card from "./components/Subsc2/Cards/Card";
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <WayOfLife />
       <Subs />
       <Subsc2 />
+      <Card />
       <Reg />
       <Map />
       <Footer2 />

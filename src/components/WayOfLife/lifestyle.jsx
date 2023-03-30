@@ -37,7 +37,6 @@ export const WrapperImg = styled.div`
 `;
 export const GymImg1 = styled.div`
   background-image: url(${(p) => (p.bg, GymIm1)});
-
   width: 308px;
   height: 432px;
   background-position: center;
@@ -45,7 +44,6 @@ export const GymImg1 = styled.div`
 `;
 export const GymImg2 = styled.div`
   background-image: url(${(p) => (p.bg, GymIm2)});
-
   width: 308px;
   height: 432px;
   background-position: center;
@@ -98,4 +96,3 @@ export const TitleBtn = styled.h3`
   margin-left: 30px;
   color: #fff;
 `;
-export const HoverSelection = styled.div``;

@@ -1,5 +1,12 @@
 import React from "react";
-import { Main, WrapperHover,Border, WrapperHv, ImgHv, Title } from "./hoverstyle";
+import {
+  Main,
+  WrapperHover,
+  Border,
+  WrapperHv,
+  ImgHv,
+  Title,
+} from "./hoverstyle";
 import ImgHover1 from "../../assets/bike.png";
 import ImgHover2 from "../../assets/dumbbell.png";
 import ImgHover3 from "../../assets/location.png";
