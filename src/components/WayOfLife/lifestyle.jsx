@@ -36,14 +36,14 @@ export const WrapperImg = styled.div`
   }
 `;
 export const GymImg1 = styled.div`
-  background-image: url(${(p) => (p.bg, GymIm1)});
+  background-image: url(${GymIm1});
   width: 308px;
   height: 432px;
   background-position: center;
   filter: drop-shadow(0px 4px 50px rgba(0, 0, 0, 0.5));
 `;
 export const GymImg2 = styled.div`
-  background-image: url(${(p) => (p.bg, GymIm2)});
+  background-image: url(${GymIm2});
   width: 308px;
   height: 432px;
   background-position: center;
