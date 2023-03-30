@@ -5,7 +5,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TelegramIcon from "@mui/icons-material/Telegram";
 
 export const BgWrapper = styled.div`
-  background-image: url(${(p) => (p.bg, BgImg)});
+  background-image: url(${BgImg});
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
