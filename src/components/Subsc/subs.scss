@@ -1,90 +1,105 @@
-.wrapper-subs {
-  position: relative;
-  height: 100%;
-  padding: 100px 0;
-  overflow: auto;
-  background-image: url("../../assets/Slice2.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  .subs-div {
-    width: 1125px;
-    margin: 0 auto;
-    overscroll-behavior-inline: contain;
+.main-wrapper-subs {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .wrapper-subs {
+    position: relative;
+    height: 100%;
+    // padding: 100px 0;
+    padding-bottom: 100px;
+    width: 100%;
+    overflow: auto;
+    background-image: url("../../assets/Slice2.png");
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 10px;
     .title1 {
       font-size: 30px;
       font-weight: 700;
       line-height: 34px;
       margin-bottom: 70px;
     }
-    .wrapper-list {
-      width: 100%;
+    .subs-div {
+      width: 1125px;
+      margin: 0 auto;
+      overscroll-behavior-inline: contain;
       display: flex;
       flex-direction: column;
-      .top-numbers {
-        width: 100%;
-        border-bottom: 1px solid rgba(12, 20, 23, 0.5);
-        display: flex;
-        justify-content: space-between;
-        color: #0c1417;
-        font-weight: 700;
-        line-height: 24px;
-        p {
-          padding: 15px 0;
-          width: 180px;
-          transition: 0.3s ease-in-out;
+      justify-content: center;
+      align-items: center;
+      padding: 0 10px;
 
-          cursor: default;
-          &:hover {
-            transition: 0.3s ease-in-out;
-            color: #f7931e;
-          }
-        }
-        :nth-child(1) {
-          color: #0c1417;
-          font-weight: 500;
-          font-size: 18px;
-          line-height: 24px;
-          &:hover {
-            color: #0c1417;
-          }
-        }
-        :nth-child(n + 2) {
-          width: 150px;
-          text-align: center;
-          justify-content: center;
-        }
-      }
-      .type1 {
+      .wrapper-list {
+        width: 100%;
         display: flex;
-        justify-content: space-between;
-        padding-top: 47px;
-        font-weight: 600;
-        z-index: 999;
-        :nth-child(n + 2) {
-          width: 150px;
-          text-align: center;
-          justify-content: center;
-          align-items: center;
+        flex-direction: column;
+        .top-numbers {
+          width: 100%;
+          border-bottom: 1px solid rgba(12, 20, 23, 0.5);
+          display: flex;
+          justify-content: space-between;
           color: #0c1417;
-          font-weight: 400;
-          &:hover {
+          font-weight: 700;
+          line-height: 24px;
+          p {
+            padding: 15px 0;
+            width: 180px;
+            transition: 0.3s ease-in-out;
+
+            cursor: default;
+            &:hover {
+              transition: 0.3s ease-in-out;
+              color: #f7931e;
+            }
+          }
+          :nth-child(1) {
             color: #0c1417;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            &:hover {
+              color: #0c1417;
+            }
+          }
+          :nth-child(n + 2) {
+            width: 150px;
+            text-align: center;
+            justify-content: center;
           }
         }
-        p {
+        .type1 {
           display: flex;
-          font-size: 15px;
-          width: 180px;
-          transition: 0.3s ease-in-out;
-          cursor: default;
-          &:hover {
-            color: #f7931e;
+          justify-content: space-between;
+          padding-top: 47px;
+          font-weight: 600;
+          z-index: 999;
+          :nth-child(n + 2) {
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            color: #0c1417;
+            font-weight: 400;
+            &:hover {
+              color: #0c1417;
+            }
+          }
+          p {
+            display: flex;
+            font-size: 15px;
+            width: 180px;
             transition: 0.3s ease-in-out;
+            cursor: default;
+            &:hover {
+              color: #f7931e;
+              transition: 0.3s ease-in-out;
+            }
           }
         }
       }

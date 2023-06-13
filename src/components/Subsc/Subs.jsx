@@ -1,5 +1,6 @@
 import React from "react";
 import "./subs.scss";
+import Title1 from "./Title1";
 export const numberTr = [
   {
     id: 1,
@@ -93,29 +94,31 @@ export const typeTr3 = [
 ];
 const Subsc = () => {
   return (
-    <div className="wrapper-subs">
-      <div className="subs-div">
+    <div className="main-wrapper-subs">
         <p className="title1">Абонементы</p>
-        <div className="wrapper-list">
-          <div className="top-numbers">
-            {numberTr.map((res) => (
-              <p key={res.id}>{res.title}</p>
-            ))}
-          </div>
-          <div className="type1">
-            {typeTr.map((res) => (
-              <p key={res.id}>{res.title}</p>
-            ))}
-          </div>
-          <div className="type1">
-            {typeTr2.map((res) => (
-              <p key={res.id}>{res.title}</p>
-            ))}
-          </div>
-          <div className="type1">
-            {typeTr3.map((res) => (
-              <p key={res.id}>{res.title}</p>
-            ))}
+      <div className="wrapper-subs">
+        <div className="subs-div">
+          <div className="wrapper-list">
+            <div className="top-numbers">
+              {numberTr.map((res) => (
+                <p key={res.id}>{res.title}</p>
+              ))}
+            </div>
+            <div className="type1">
+              {typeTr.map((res) => (
+                <p key={res.id}>{res.title}</p>
+              ))}
+            </div>
+            <div className="type1">
+              {typeTr2.map((res) => (
+                <p key={res.id}>{res.title}</p>
+              ))}
+            </div>
+            <div className="type1">
+              {typeTr3.map((res) => (
+                <p key={res.id}>{res.title}</p>
+              ))}
+            </div>
           </div>
         </div>
       </div>

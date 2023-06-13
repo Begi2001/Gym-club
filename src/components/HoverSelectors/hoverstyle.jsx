@@ -15,6 +15,13 @@ export const WrapperHover = styled.div`
     grid-column-gap: 130px;
     grid-row-gap: 40px;
   }
+  @media (max-width: 575px) {
+    grid-column-gap: 80px;
+    grid-row-gap: 30px;
+  }
+  @media (max-width: 515px) {
+    grid-template-columns: 1fr;
+  }
 `;
 export const Border = styled.div`
   transition: 0.5s ease-in-out;

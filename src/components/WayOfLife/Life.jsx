@@ -1,9 +1,11 @@
 import React from "react";
 import {
-  MainWrapper,About,WrapperImg,GymImg1,GymImg2,
-  Info,Title,Desc,WrapperBtn,TitleBtn,
+  MainWrapper,About,
+  WrapperImg,GymImg1,
+  GymImg2,Info,Title,
+  Desc,WrapperBtn,TitleBtn,
 } from "./lifestyle";
-import Hover from "../HoverSelectors/Hover"
+import Hover from "../HoverSelectors/Hover";
 const Life = () => {
   return (
     <MainWrapper>
@@ -24,7 +26,7 @@ const Life = () => {
           </WrapperBtn>
         </Info>
       </About>
-      <Hover/>
+      <Hover />
     </MainWrapper>
   );
 };

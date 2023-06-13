@@ -26,6 +26,9 @@ export const About = styled.div`
     align-content: center;
     gap: 50px;
   }
+  @media (max-width: 675px) {
+    width: 100%;
+  }
 `;
 export const WrapperImg = styled.div`
   display: flex;
@@ -33,6 +36,11 @@ export const WrapperImg = styled.div`
   @media (max-width: 1140px) {
     justify-content: space-around;
     gap: 0px;
+  }
+  @media (max-width: 675px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
   }
 `;
 export const GymImg1 = styled.div`
@@ -63,6 +71,7 @@ export const Info = styled.div`
     width: 100%;
     align-items: center;
   }
+
 `;
 export const Title = styled.h2`
   color: #fff;
